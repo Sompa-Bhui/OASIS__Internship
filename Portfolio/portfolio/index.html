@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="nav bd_grid">
+        <div>
+          <a href="#" class="nav_logo">My Portfolio</a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_items">
+              <a href="#about" class="nav_link active">About</a>
+            </li>
+            <li class="nav_items">
+              <a href="#skills" class="nav_link active">Skills</a>
+            </li>
+            <li class="nav_items">
+              <a href="#experience" class="nav_link active">Experience</a>
+
+            </li>
+            <li class="nav_items">
+              <a href="#contact" class="nav_link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+
+      <!-- HOME SECTION -->
+      <section class="home bd_grid" id="home">
+        <div class="home_data" data-aos="fade-down">
+          <h1 class="home_title">
+            Hi, <br />I'm <span class="home_title-color">Padmakumar</span
+            ><br /><span id="developerTitle">Web Developer</span>
+          </h1>
+          
+        </div>
+
+        <div class="home_social">
+          <a
+            href="https://twitter.com/padmakumar_rp"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://github.com/rppadmakumar3/"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/r-padmakumar/"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://medium.com/@padmakumar-rp"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            ><i class="bx bxl-medium"></i
+          ></a>
+          <a
+            href="https://www.quora.com/profile/RP-Padmakumar"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            ><i class="bx bxl-quora"></i
+          ></a>
+        </div>
+
+        <div class="home_img" data-aos="fade-down" data-aos-delay="500">
+          <img src="assets/img/codethink.svg">
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about section" id="about">
+        <h2 class="section-title" data-aos="fade-down">About</h2>
+
+        <div class="about_container bd_grid">
+          <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+            <img src="assets/img/about.svg" alt="" />
+          </div>
+
+          <div>
+            <h2
+              class="about_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="350"
+            >
+              I'm Padmakumar
+            </h2>
+            <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+              I'm Padmakumar, a 3rd-year computer science and business systems student with a strong background in mobile app development using Java and Flutter. 
+              I'm also skilled in C, Python, front-end web development, and have experience in machine learning and digital marketing, including SEO and advertising.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title" data-aos="fade-down">Skills</h2>
+
+        <div class="skills_container bd_grid">
+          <div>
+            <!-- SKILLS HTML -->
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Mobile Application Development (Java and Flutter)</span>
+              </div>
+
+              <div><span class="skill_percentage">65%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Programming Languages (C, Python)</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Front-end Web Development</span>
+              </div>
+
+              <div><span class="skill_percentage">80%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Machine Learning</span>
+              </div>
+
+              <div><span class="skill_percentage">60%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Deep Learning</span>
+              </div>
+
+              <div><span class="skill_percentage">75%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Artificial Intelligence</span>
+              </div>
+
+              <div><span class="skill_percentage">50%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Digital Maketing</span>
+              </div>
+
+              <div><span class="skill_percentage">85%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Problem Solving</span>
+              </div>
+
+              <div><span class="skill_percentage">85%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Leadership</span>
+              </div>
+
+              <div><span class="skill_percentage">85%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">SQL</span>
+              </div>
+
+              <div><span class="skill_percentage">75%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+        </div>
+      </section>
+
+<section class="experience" id="experience">
+  <h2 class="section-title" data-aos="fade-down">Experience</h2>
+
+  <div class="card-container" data-aos="fade-right" data-aos-delay="100">
+      <div class="card">
+          <h3 class="card-title">AngelHack Student Ambassador (08/2022 - 03/2023)</h3>
+          <div class="card-back">
+              <img src="assets/img/angelhack.png" alt="Company 1 Logo" />
+          </div>
+          <p>AngelHack</p>
+      </div>
+
+      <div class="card">
+          <h3 class="card-title">Techgig Campus Ambassador (07/2022 - Present)</h3>
+          <div class="card-back">
+              <img src="assets/img/techgig.png" alt="Company 1 Logo" />
+          </div>
+          <p>Techgig</p>
+      </div>
+
+      <div class="card">
+          <h3 class="card-title">Intel® oneAPI Ambassador (08/2023 - Present)</h3>
+          <div class="card-back">
+              <img src="assets/img/Intel.png" alt="Company 1 Logo" />
+          </div>
+          <p>Intel</p>
+      </div>
+  </div>
+</section>
+
+      <!-- CONTACT SECTION -->
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title" data-aos="fade-down">Contact</h2>
+
+        <div class="contact_container bd_grid">
+          <form action="#" class="contact_form">
+            <input
+              type="text"
+              placeholder="Name"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="250"
+            />
+            <input
+              type="mail"
+              placeholder="Email"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="400"
+            ></textarea>
+
+            <input
+              type="button"
+              value="Send"
+              class="control_button button"
+              data-aos="fade-right"
+              data-aos-delay="450"
+            />
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <p class="footer_title" data-aos="fade-down">Padmakumar</p>
+
+        <div class="footer_socials">
+          <a
+            href="https://github.com/rppadmakumar3/"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/r-padmakumar/"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="450"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://medium.com/@padmakumar-rp"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="550"
+            ><i class="bx bxl-medium"></i
+          ></a>
+        </div>
+
+        <p data-aos="fade-down" data-aos-delay="650">
+          &#169; 2023 copyright all right reserved
+        </p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
